@@ -6,7 +6,7 @@ set :stages, ["production"]
 set :default_stage, "production"
 set :ssh_options, { 
   forward_agent: true, 
-  paranoid: true, 
+  accept_new_or_local_tunnel: true, 
   keys: "~/.ssh/id_rsa" 
 }
 
