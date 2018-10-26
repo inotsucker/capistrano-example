@@ -41,3 +41,8 @@ and the repository exists.
 
 Please make sure you have the correct access rights
 and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-10-26 12:29:08 +0800 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [8a485265] Running /usr/bin/env mkdir -p /tmp as deploy@172.104.170.27
+ DEBUG [8a485265] Command: /usr/bin/env mkdir -p /tmp
