@@ -11,7 +11,7 @@ set :application, 'capistrano_example'
 set :branch, "master"
 set :repo_url, 'git@github.com:inotsucker/capistrano-example.git'
 
-set :deploy_to, "/opt/lampp/htdocs/#{fetch(:application)}/"
+set :deploy_to, "/var/www/#{fetch(:application)}/"
 set :deploy_user, "deploy"
 
 set :linked_dirs, %w(my_shared_directory)
