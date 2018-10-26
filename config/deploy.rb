@@ -1,6 +1,6 @@
 # config valid only for Capistrano 3.1
 # require 'capistrano/ext/multistage'
-lock '3.5.0'
+lock '3.11.0'
 
 set :stages, ["production"]
 set :default_stage, "production"
