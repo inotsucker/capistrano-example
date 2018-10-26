@@ -1,0 +1,6 @@
+# Logfile created on 2018-10-26 11:05:31 +0800 by logger.rb/61378
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-10-26 11:05:31 +0800 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [e4ce62b2] Running /usr/bin/env mkdir -p /tmp as root@172.104.170.27
+ DEBUG [e4ce62b2] Command: /usr/bin/env mkdir -p /tmp
