@@ -5,8 +5,7 @@ lock "~> 3.11.0"
 set :stages, ["production"]
 set :default_stage, "production"
 set :ssh_options, { 
-  forward_agent: true, 
-  accept_new_or_local_tunnel: true, 
+  forward_agent: true,  
   keys: "~/.ssh/id_rsa" 
 }
 
