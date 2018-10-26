@@ -2,16 +2,17 @@
 # require 'capistrano/ext/multistage'
 lock "~> 3.11.0"
 
-set :stages, ["production"]
-set :default_stage, "production"
 set :ssh_options, { 
   forward_agent: true,  
   keys: "~/.ssh/id_rsa" 
 }
 
 set :application, 'capistrano_example'
+set :branch, "master"
 set :repo_url, 'git@github.com:inotsucker/capistrano-example.git'
-set :user, "inotsucker"
+
+set :deploy_to, "/opt/lampp/htdocs/#{fetch(:application)}/"
+set :deploy_user, "deploy"
 
 set :linked_dirs, %w(my_shared_directory)
 
