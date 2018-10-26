@@ -51,3 +51,13 @@ and the repository exists.
   INFO ---------------------------------------------------------------------------
   INFO [359c5205] Running /usr/bin/env mkdir -p /tmp as deploy@172.104.170.27
  DEBUG [359c5205] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-10-26 12:32:17 +0800 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [b2dba528] Running /usr/bin/env mkdir -p /tmp as deploy@172.104.170.27
+ DEBUG [b2dba528] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-10-26 12:41:44 +0800 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [2aa11d3f] Running /usr/bin/env mkdir -p /tmp as deploy@172.104.170.27
+ DEBUG [2aa11d3f] Command: /usr/bin/env mkdir -p /tmp
