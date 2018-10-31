@@ -131,3 +131,8 @@ and the repository exists.
   INFO ---------------------------------------------------------------------------
   INFO [f6e73f88] Running /usr/bin/env mkdir -p /tmp as deploy@172.104.170.27
  DEBUG [f6e73f88] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-10-31 16:09:19 +0800 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [7160cf42] Running /usr/bin/env mkdir -p /tmp as deploy@172.104.170.27
+ DEBUG [7160cf42] Command: /usr/bin/env mkdir -p /tmp

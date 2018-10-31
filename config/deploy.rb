@@ -5,8 +5,8 @@ lock "~> 3.11.0"
 set :application, "capistrano_example"
 set :branch, "master"
 set :repo_url, "git@github.com:inotsucker/capistrano-example.git"
-set :deploy_user, "deploy"
-set :deploy_to, "/home/#{fetch :deploy_user}/#{fetch :application}"
+set :deploy_user, "root"
+set :deploy_to, "/opt/lampp/htdocs/#{fetch :application}"
 
 
 set :linked_dirs, %w(my_shared_directory)

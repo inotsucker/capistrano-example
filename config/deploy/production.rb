@@ -14,4 +14,4 @@
 #set :password, ask(:password, nil, echo: false)
 #server '172.104.170.27', user: 'deploy', port: 22, password: fetch(:password), roles: %w{web app db}
 
-server "172.104.170.27", user: "deploy", roles: ["app", "db", "web"]
+server "172.104.170.27", user: "root", roles: ["app", "db", "web"]
